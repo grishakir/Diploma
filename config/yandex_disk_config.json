@@ -1,0 +1,26 @@
+{
+    "account" : [
+        {
+            "OAuth-token" : "",
+            "cookie" : "",
+            "pathes" : [
+                "files/photos",
+                "emails"
+            ]
+        }
+    ],
+    "files" : [
+        "attachments/file1",
+        "attachments/file2",
+        "attachments/img1.img",
+        "attachments/img2.img",
+        "attachments/file3",
+        "attachments/file4",
+        "attachments/img3.img",
+        "attachments/img4.img",
+        "attachments/file5",
+        "attachments/file6",
+        "attachments/img5.img",
+        "attachments/img6.img"
+    ]
+}

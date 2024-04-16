@@ -1,0 +1,6 @@
+# Router Dockerfile
+FROM alpine:latest
+RUN apk update && apk add --no-cache iptables dnsmasq tcpdump
+COPY router_dir/router.sh /usr/local/bin/router.sh
+RUN chmod +x /usr/local/bin/router.sh
+CMD ["router.sh"]

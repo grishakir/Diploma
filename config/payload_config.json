@@ -1,0 +1,21 @@
+{
+    "payloads" : [
+        {
+            "pcap_file": "payloads/dns.pcap",
+            "target_ip": "10.0.2.1",
+            "target_port": 53
+        },
+        {
+            "pcap_file": "payloads/epicar.pcap"
+        }
+    ],
+    "targets" : [
+        {
+            "ip" : "10.0.2.2",
+            "ports" : [993, 452]
+        },
+        {
+            "ip" : "10.0.2.3"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "description": "Configuration for traffic generation system",
+  "traffic_generator": {
+    "generation_modules": 10,
+    "attack_tester": true
+  },
+  "attack_address":
+    {
+      "mac_address": "00:1A:2B:3C:4D:5E",
+      "ip_address": "192.168.1.10",
+      "subnet_mask": "255.255.255.0",
+      "gateway": "192.168.1.1"
+    },
+  "logging": {
+    "enabled": true,
+    "log_level": "DATASET",
+    "log_file": "/var/log/traffic_generator.log"
+  },
+  "whatsapp_config" : "whatsapp_config.json",
+  "http_config" : "http_config.json",
+  "mail_config" : "mail_config.json",
+  "payload_config" : "payload_config.json",
+  "telegram_config" : "telegram_config.json",
+  "yandex_disk_config" : "yandex_disk_config.json"
+}

@@ -1,0 +1,64 @@
+[
+    {
+        "method": "GET",
+        "url": "https://api.google.com/resource",
+        "http_version": "HTTP/2"
+    },
+    {
+        "method": "PUT",
+        "url": "https://api.google.com/resource/1",
+        "data": "{\"name\":\"John Doe\",\"email\":\"john.doe@google.com\"}",
+        "headers": ["Content-Type: application/json"],
+        "http_version": "HTTP/2"
+    },
+    {
+        "method": "POST",
+        "url": "https://api.google.com/resource",
+        "data": "{\"title\":\"New Post\",\"content\":\"This is the content of the post.\"}",
+        "headers": ["Content-Type: application/json"],
+        "http_version": "HTTP/2"
+    },
+    {
+        "method": "DELETE",
+        "url": "https://api.google.com/resource/1",
+        "http_version": "HTTP/2"
+    },
+    {
+        "method": "PATCH",
+        "url": "https://api.google.com/resource/1",
+        "data": "{\"email\":\"new.email@google.com\"}",
+        "headers": ["Content-Type: application/json"],
+        "http_version": "HTTP/2"
+    },
+    {
+        "method": "GET",
+        "url": "https://api.google.com/resource",
+        "http_version": "HTTP/1"
+    },
+    {
+        "method": "PUT",
+        "url": "https://api.google.com/resource/1",
+        "data": "{\"name\":\"John Doe\",\"email\":\"john.doe@google.com\"}",
+        "headers": ["Content-Type: application/json"],
+        "http_version": "HTTP/1"
+    },
+    {
+        "method": "POST",
+        "url": "https://api.google.com/resource",
+        "data": "{\"title\":\"New Post\",\"content\":\"This is the content of the post.\"}",
+        "headers": ["Content-Type: application/json"],
+        "http_version": "HTTP/1"
+    },
+    {
+        "method": "DELETE",
+        "url": "https://api.google.com/resource/1",
+        "http_version": "HTTP/1"
+    },
+    {
+        "method": "PATCH",
+        "url": "https://api.google.com/resource/1",
+        "data": "{\"email\":\"new.email@google.com\"}",
+        "headers": ["Content-Type: application/json"],
+        "http_version": "HTTP/1"
+    }
+]

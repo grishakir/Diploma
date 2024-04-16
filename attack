@@ -1,0 +1,6 @@
+# Attack Dockerfile
+FROM alpine:latest
+RUN apk update && apk add --no-cache hping3
+COPY router.sh /usr/local/bin/router.sh
+RUN chmod +x /usr/local/bin/router.sh
+CMD ["router.sh"]

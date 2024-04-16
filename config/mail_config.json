@@ -1,0 +1,80 @@
+{
+    "servers" : [
+        {
+            "imap_enable" : true,
+            "pop3_enable" : true,
+            "smtp_enable" : true,
+            "imap_domainname" : "mail.mai.education",
+            "pop3_domainname" : "mail.mai.education",
+            "smtp_domainname" : "mail.mai.education",
+            "imap_port" : "993",
+            "pop3_port" : "995",
+            "smtp_port" : "587",
+            "users" : [
+                {
+                    "login" : "grkirsanov@mai.education",
+                    "password" : "1111111"
+                }
+            ]
+        }
+    ],
+    "subjects" : [
+        "Meeting Confirmation for Tomorrow",
+        "Special Offer Just for You!",
+        "Weekly Team Update",
+        "Upcoming Project Deadlines",
+        "Invitation to Our Webinar",
+        "New Product Launch Announcement",
+        "Important Security Update",
+        "Thank You for Your Purchase!",
+        "Reminder: Appointment on Thursday",
+        "Monthly Performance Report",
+        "Your Subscription Renewal Notice",
+        "Holiday Schedule and Office Closures",
+        "Feedback Request: How Are We Doing?",
+        "Exciting News from Our Company",
+        "Urgent: Action Required",
+        "Join Us for a Virtual Event",
+        "Exclusive Access to Premium Content",
+        "Happy Birthday! Here's a Gift for You",
+        "Tips and Tricks for Better Productivity",
+        "Don't Miss Out on This Opportunity!"
+    ],
+    "addresses" : [
+        "john.doe@yandex.ru",
+        "jane.smith@mail.ru",
+        "cool.guy@gmail.com",
+        "happy.girl@yandex.ru",
+        "tech.geek@mail.ru",
+        "travel.bug@gmail.com",
+        "food.lover@yandex.ru",
+        "book.worm@mail.ru",
+        "music.fan@gmail.com",
+        "nature.lover@yandex.ru",
+        "fitness.freak@mail.ru",
+        "art.enthusiast@gmail.com",
+        "movie.buff@yandex.ru",
+        "pet.lover@mail.ru",
+        "gamer.girl@gmail.com"
+    ],    
+    "messages" : [
+        "The sun is shining brightly, and birds sing in the trees.",
+        "Last night we walked along the beach and watched the sunset.",
+        "The library has many interesting books for every taste.",
+        "Computers and the internet have become essential in life.",
+        "It was raining outside, and people opened their umbrellas.",
+        "The store had a lot of fresh fruits and vegetables.",
+        "We are planning a trip to the mountains next week.",
+        "Winter has come, and the city is covered in snow.",
+        "The cat slept on the windowsill, warming in the sun.",
+        "In the evening, we watched an interesting movie together.",
+        "Music played in the square, and people danced till dawn.",
+        "The forest was quiet, only the leaves rustled in the wind.",
+        "Hot tea warmed us on a cold winter evening.",
+        "Flowers bloomed in the garden, delighting the eye.",
+        "Children played in the yard, enjoying the warm summer day."
+    ],
+    "use_random_subjects" : true,
+    "use_random_message" : true,
+    "random_message_length" : 520
+}
